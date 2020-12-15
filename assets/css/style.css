@@ -520,3 +520,61 @@ CSS de áreas específicas
 .choose.active {
   background-color: var(--color-primary);
 }
+
+
+
+
+.white {
+  background-color: #fff;
+}
+.section-sales {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.slide-area.slide-sales {
+  display: flex;
+  justify-content: center;
+  padding: 0 50px;
+  padding-bottom: 44px;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+.section-sales--right {
+  padding-top: 5px;
+}
+.section-benefits {
+  display: flex;
+  margin-left: 80px;
+}
+.section-benefits h4 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 15px;
+}
+.section-benefits p {
+  color: #999;
+  line-height: 22px;
+}
+.benefits-img {
+  margin-right: 30px;
+  margin-top: 15px;
+}
+.section-sales .sliders-pointers {
+  margin-top: 40px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-sales .pointer {
+  height: 15px;
+  width: 15px;
+  border: 2px solid var(--color-primary);
+  border-radius: 8px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.section-sales .pointer.active {
+  background-color: var(--color-primary);
+}
