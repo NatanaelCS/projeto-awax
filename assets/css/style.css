@@ -374,3 +374,68 @@ CSS de áreas específicas
 .section-team--social a:hover {
   background-color: var(--color-primary);
 }
+
+
+
+.happy-client {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.section-happyclients {
+  overflow: hidden;
+  max-width: 880px;
+  margin: auto;
+}
+.section-happyclients .sliders {
+  display: flex;
+  flex-direction: row;
+}
+.section-happyclients .slide-area {
+  width: 100vw;
+  max-width: 880px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-happyclients--avatar {
+  margin-top: 30px;
+}
+.section-happyclients--name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+.section-happyclients--role {
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 8px;
+}
+.section-happyclients .quote {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.section-happyclients--desc {
+  text-align: center;
+  color: #7e7e7e;
+}
+.section-happyclients .sliders-pointers {
+  margin-top: 50px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-happyclients .pointer {
+  height: 15px;
+  width: 15px;
+  border: 2px solid var(--color-primary);
+  border-radius: 8px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.section-happyclients .pointer.active {
+  background-color: var(--color-primary);
+}
+
+
